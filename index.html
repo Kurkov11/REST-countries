@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Where in the world?</h1>
+      <div class="theme">
+        <img src="img/moon-regular.svg" alt="" class="moon" />
+        <p>Dark Mode</p>
+      </div>
+    </header>
+    <main>
+      <form action="#" class="search-form">
+        <img
+          src="img/magnifying-glass-solid.svg"
+          alt=""
+          class="search-form__img"
+        />
+        <input
+          type="search"
+          placeholder="Search for a country..."
+          class="search-form__input"
+        />
+      </form>
+      <div class="region-select">
+        <button class="region-select__btn">
+          <p>Filter by Region</p>
+          <svg height="8" width="10">
+            <path d="M 0 0 l 5 5 l 5 -5" style="fill:none; stroke:black; stroke-width:2">
+          </svg>
+        </button>
+        <div class="region-select__options hidden">
+          <p>Africa</p>
+          <p>America</p>
+          <p>Asia</p>
+          <p>Europe</p>
+          <p>Oceania</p>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="https://flagcdn.com/al.svg" alt="">
+          <div>
+            <h2>Greece</h2>
+            <p>Population: <span>8,770,432</span></p>
+            <p>Region: <span>Europe</span></p>
+            <p>Capital: <span>Morocco</span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
